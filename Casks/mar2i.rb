@@ -1,9 +1,9 @@
 cask "mar2i" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.3"
-  sha256 arm:   "d78ec65b9ec47a3ad33788a4d1540ba0ffc5c2fb1db6710d50d0d934a7c31806",
-         intel: "d78ec65b9ec47a3ad33788a4d1540ba0ffc5c2fb1db6710d50d0d934a7c31806"
+  version "0.2.5"
+  sha256 arm:   "e77f89df8ff7c5935342d593da49344aa2a31618ba7a708d9e81581e91195d3b",
+         intel: "e77f89df8ff7c5935342d593da49344aa2a31618ba7a708d9e81581e91195d3b"
 
   url "https://github.com/imMamdouhaboammar/mar2i/releases/download/v#{version}/Mar2i_#{version}_#{arch}.dmg",
       verified: "github.com/imMamdouhaboammar/mar2i/"
